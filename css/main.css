@@ -1,1 +1,60 @@
-s 
+body {
+	background-color: #f058ca;
+	padding: 0;
+	margin: 0;
+}
+
+
+header{
+	background-color: #ffffff;
+	padding: 75px 0;
+	text-align: center;
+	color: pink;
+}
+
+/*.dog1{
+	background-color: #ca58f0;
+	padding: 18px 0; 
+	width: 100%;
+	height: auto;
+
+}
+.dog1 div.inner-wrap {
+	background-color: #ffec7f;
+}*/
+div.wrap {
+	background-color: #ca58f0;
+	height: 500px;
+}
+div.inner-wrap img, div.inner-wrap .text-wrap,div.inner-wrap .list-wrap {
+	/*width: 33.33333%;*/
+	float: left;
+	text-align: center;
+	width: 50%;
+	margin-top: 50px;
+}
+div.list {
+	float: right;
+	text-align: center;
+	width: 50%;
+	margin-top: 50px;
+}
+div.list h3 {
+	font-size: 40px;
+}
+div.list ul {
+	width: 40%;
+}
+
+.dog2 {
+	float:right;
+	height:auto;
+}
+div.dog2 img {
+	width: 500px;
+	height: 400px;
+}
+
+.sec2 .history {
+	text-align: left;
+}
